@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "guanchen-bank-api",
+  "version": "0.1.0",
+  "description": "Bank API tools via a remote OAuth-protected MCP server",
+  "license": "MIT",
+  "keywords": ["bank", "api", "mcp", "oauth"]
+}

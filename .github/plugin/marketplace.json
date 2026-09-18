@@ -1,0 +1,17 @@
+{
+  "name": "guanchen-plugins",
+  "owner": {
+    "name": "Erwin Kramer"
+  },
+  "description": "Portable plugins from Guanchen.",
+  "plugins": [
+    {
+      "name": "guanchen-platform",
+      "source": "guanchen-platform"
+    },
+    {
+      "name": "guanchen-bank-api",
+      "source": "guanchen-bank-api"
+    }
+  ]
+}
