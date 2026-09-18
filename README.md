@@ -1,6 +1,6 @@
 # Guanchen Agent Plugins
 
-This repo conforms to [Agent Plugins Specification 1.0](https://agent-plugins.org/specification) for plugins, and the [copilot marketplace](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-marketplace#creating-a-plugin-marketplace) setup. 
+This repo conforms to [Agent Plugins Specification 1.0](https://agent-plugins.org/specification) for plugins, and the [Copilot marketplace](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-marketplace#creating-a-plugin-marketplace) setup. 
 
 ## Setup
 
