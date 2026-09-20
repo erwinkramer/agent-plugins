@@ -25,7 +25,11 @@ copilot plugin install ponytail@guanchen-plugins
 
 Now, use the `Reload Windows` command in VS Code to see the freshly installed plugins.
 
-For all following commands, VS Code has to be closed, because of [os error 5 (permission) issue in the cli](https://github.com/github/copilot-cli/issues/4570). Not an issue when using VS Code UI for installing and managing plugins.
+## Issues
+
+1. For all update/delete commands for plugins installed via `copilot` cli, VS Code has to be closed, because of [os error 5 (permission) issue in the cli](https://github.com/github/copilot-cli/issues/4570). Not an issue when using VS Code UI for installing and managing plugins.
+1. Variables for local MCP Servers and local hooks do not work in VS Code chat session, see https://github.com/microsoft/vscode/issues/336882
+1. Ponytail does not have a compliant Agent Plugin spec, which only causes an issue with the ponytail-hooks not pointing to `copilot-hooks.json` - but to the claude variant instead. Skills work fine. As a workaround, a personal fork is used here, and a PR has been filed: https://github.com/DietrichGebert/ponytail/pull/911
 
 ## Maintenance
 
