@@ -7,11 +7,15 @@
   "plugins": [
     {
       "name": "guanchen-platform",
-      "source": "guanchen-platform"
+      "description": "Guanchen platform plugin.",
+      "source": "plugins/guanchen-platform",
+      "agents": "agents/"
     },
     {
       "name": "guanchen-bank-api",
-      "source": "guanchen-bank-api"
+      "description": "Guanchen Bank API plugin.",
+      "source": "plugins/guanchen-bank-api",
+      "agents": "agents/"
     },
     {
       "name": "ponytail",
@@ -20,7 +24,6 @@
         "source": "github",
         "repo": "DietrichGebert/ponytail"
       },
-      "category": "productivity",
       "tags": [
         "yagni",
         "minimalism",
@@ -30,6 +33,14 @@
       "commands": "commands/",
       "skills": "skills/",
       "hooks": "hooks/copilot-hooks.json"
+    },
+    {
+      "name": "mattpocock-skills",
+      "description": "Agent skills for engineering workflows including TDD, code review, debugging, specs, and tickets.",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      }
     }
   ]
 }

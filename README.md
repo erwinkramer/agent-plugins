@@ -14,20 +14,13 @@ Both ways make the plugins end up under `Extensions` - `Agent Plugins - Installe
 # Get the current marketplaces
 copilot plugin marketplace list
 
-# Add some marketplaces for popular plugins
-copilot plugin marketplace add mattpocock/skills
-copilot plugin marketplace add dietrichgebert/ponytail
-
 # Add the current repo as marketplace
 copilot plugin marketplace add erwinkramer/agent-plugins
-
-# Install some popular plugins, via the added marketplaces
-copilot plugin install mattpocock-skills@mattpocock
-copilot plugin install ponytail@ponytail
 
 # Install some plugins, from the Guanchen Agent Plugins marketplace
 copilot plugin install guanchen-platform@guanchen-plugins
 copilot plugin install guanchen-bank-api@guanchen-plugins
+copilot plugin install ponytail@guanchen-plugins
 ```
 
 Now, use the `Reload Windows` command in VS Code to see the freshly installed plugins.
