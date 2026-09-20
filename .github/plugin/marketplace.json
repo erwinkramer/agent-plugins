@@ -8,14 +8,12 @@
     {
       "name": "guanchen-platform",
       "description": "Guanchen platform plugin.",
-      "source": "plugins/guanchen-platform",
-      "agents": "agents/"
+      "source": "plugins/guanchen-platform"
     },
     {
       "name": "guanchen-bank-api",
       "description": "Guanchen Bank API plugin.",
-      "source": "plugins/guanchen-bank-api",
-      "agents": "agents/"
+      "source": "plugins/guanchen-bank-api"
     },
     {
       "name": "ponytail",
@@ -31,7 +29,6 @@
         "productivity"
       ],
       "commands": "commands/",
-      "skills": "skills/",
       "hooks": "hooks/copilot-hooks.json"
     },
     {

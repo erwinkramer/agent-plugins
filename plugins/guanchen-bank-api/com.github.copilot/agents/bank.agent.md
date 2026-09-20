@@ -1,4 +1,5 @@
 ---
+name: bank
 description: "Use when handling bank API requests."
 tools: [bankApi/*]
 ---
