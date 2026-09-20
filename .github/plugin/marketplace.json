@@ -20,7 +20,7 @@
       "description": "Forces the laziest solution that works. YAGNI, stdlib first, one line over fifty.",
       "source": {
         "source": "github",
-        "repo": "DietrichGebert/ponytail",
+        "repo": "erwinkramer/ponytail",
         "path": ".github/plugin"
       },
       "tags": [
