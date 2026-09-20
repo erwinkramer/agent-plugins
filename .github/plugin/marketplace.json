@@ -28,7 +28,10 @@
         "minimalism",
         "code-review",
         "productivity"
-      ]
+      ],
+      "commands": "./commands",
+      "skills": "./skills",
+      "hooks": "./hooks/copilot-hooks.json"
     },
     {
       "name": "mattpocock-skills",
