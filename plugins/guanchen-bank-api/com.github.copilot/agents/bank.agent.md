@@ -1,5 +1,5 @@
 ---
-name: bank
+name: Guanchen Bank Agent
 description: "Use when handling bank API requests."
 tools: [bankApi/*]
 ---
