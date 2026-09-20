@@ -20,16 +20,15 @@
       "description": "Forces the laziest solution that works. YAGNI, stdlib first, one line over fifty.",
       "source": {
         "source": "github",
-        "repo": "DietrichGebert/ponytail"
+        "repo": "DietrichGebert/ponytail",
+        "path": ".github/plugin"
       },
       "tags": [
         "yagni",
         "minimalism",
         "code-review",
         "productivity"
-      ],
-      "commands": "commands/",
-      "hooks": "hooks/copilot-hooks.json"
+      ]
     },
     {
       "name": "mattpocock-skills",
